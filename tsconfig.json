@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Bundler",
+    "resolvePackageJsonExports": true,
+    "strict": true,
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./packages"
+  },
+  "exclude": ["docs"]
+}

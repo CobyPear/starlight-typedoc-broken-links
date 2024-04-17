@@ -1,0 +1,20 @@
+{
+  "name": "starlight-typedoc-broken-links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "pnpm -F './packages/**' -r --stream build"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "pkg-a": "workspace:*"
+    }
+  }
+}
